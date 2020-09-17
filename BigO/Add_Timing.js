@@ -7,7 +7,7 @@ function addUpTo(n)
     return total;
 }
 
-const performance = {
+const performance = {    //Performance calculator
     now: function(start) {
         if ( !start ) return process.hrtime();
         var end = process.hrtime(start);
